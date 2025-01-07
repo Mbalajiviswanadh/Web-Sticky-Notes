@@ -21,7 +21,7 @@ import Img2 from "./ScreenShots/img2.png";
 import Img3 from "./ScreenShots/img3.png";
 import VID from "./Video/stickynoteDemo.mp4";
 
-export default function LandingPage() {
+export default function App() {
   const [isDarkTheme, setIsDarkTheme] = useState(true);
   const [selectedImage, setSelectedImage] = useState(null);
   const features = [
