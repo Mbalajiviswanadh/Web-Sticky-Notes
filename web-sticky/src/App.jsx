@@ -156,6 +156,12 @@ export default function LandingPage() {
             Download for Windows
           </button>
         </div>
+        <a
+          className="text-gray-400 border-b-2 border-dashed border-purple-400"
+          href="https://github.com/Mbalajiviswanadh/Sticky-Notes"
+        >
+          or clone from github
+        </a>
       </div>
 
       {/* Video Demo Section */}
