@@ -62,7 +62,7 @@ export default function LandingPage() {
   };
 
   const handleDownload = () => {
-    const downloadUrl = ".././public/APP/stickynotes-1.0.0-setup.exe";
+    const downloadUrl = "/APP/stickynotes-1.0.0-setup.exe";
 
     try {
       const link = document.createElement("a");
