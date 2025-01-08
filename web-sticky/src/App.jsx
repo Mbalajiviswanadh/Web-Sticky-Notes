@@ -14,12 +14,12 @@ import {
   Layout,
   Code,
 } from "lucide-react";
-import CliplImg from "./images/clip.png";
-import LogoImg from "./images/logoNote.png";
-import Img1 from "./ScreenShots/img1.png";
-import Img2 from "./ScreenShots/img2.png";
-import Img3 from "./ScreenShots/img3.png";
-import VID from "./Video/stickynoteDemo.mp4";
+import CliplImg from "/images/clipIMg.png";
+import LogoImg from "/images/logoNote.png";
+import Img1 from "/ScreenShots/img1.png";
+import Img2 from "/ScreenShots/img2.png";
+import Img3 from "/ScreenShots/img3.png";
+import VID from "/Video/stickynoteDemo.mp4";
 
 export default function App() {
   const [isDarkTheme, setIsDarkTheme] = useState(true);
@@ -62,7 +62,7 @@ export default function App() {
   };
 
   const handleDownload = () => {
-    const downloadUrl = "../APP/stickynotes-1.0.0-setup.exe";
+    const downloadUrl = "/stickynotes-1.0.0-setup.exe";
 
     try {
       const link = document.createElement("a");
